@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skynet - Coordinador Académico IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Skynet IA</h1>
+        <p>Tu Coordinador Académico Experto para la Nueva Escuela Mexicana</p>
+    </header>
+    <main>
+        <form id="analisis-form">
+            <input type="text" id="asignatura" placeholder="Asignatura" required>
+            <input type="text" id="semestre" placeholder="Semestre" required>
+            <textarea id="secuencia" placeholder="Pega aquí tu secuencia didáctica..." required></textarea>
+            <button type="submit">Analizar Mi Secuencia</button>
+        </form>
+        <div id="resultado-container">
+            <h2>Análisis de Skynet</h2>
+            <div id="resultado-texto">
+                Esperando tu secuencia para analizar...
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
